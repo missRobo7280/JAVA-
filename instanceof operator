@@ -1,0 +1,14 @@
+#instanceof operator is used to check if the given object is an instance of the particular mentioned class
+class Harry
+{
+void eat()
+{
+System.out.println("I can eat");
+}
+}
+public static void main(String args[])
+{
+  Harry obj1=new Harry();
+  if(obj1 instanceof Harry)
+  System.out.println("True");
+}
