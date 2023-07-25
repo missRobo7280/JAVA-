@@ -1,0 +1,10 @@
+#compareTo in java is to compare two strings for the difference or commonness between them
+class Sol
+{
+public static void main(String args[])
+{
+  String s1="examination";
+  String s2="Examine";
+  System.out.println(s1.compareTo(s2));
+}
+}
