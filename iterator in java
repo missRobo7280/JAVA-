@@ -1,0 +1,21 @@
+#Iterator is used to iterate through the containers in java including ArrayList and HashSet
+#We need to import it from the java.util.
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+class IteratorUse{
+public static void main(String args[])
+{
+  Scanenr sc=new Scanner(System.in);
+  ArrayList<String> branch=new ArrayList<String>();
+  branch.add("CSE");
+branch.add("IT");
+branch.add("EEE");
+branch.add("ECE");
+Iterator<String> it=new Iterator();
+while(it.hasNext())
+{
+System.out.println(it.next());
+}
+}
+}
