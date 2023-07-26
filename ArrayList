@@ -1,0 +1,13 @@
+#ArrayList is a dynamic array with variable size.
+#declaration of ArrayList
+#  ArrayList<Integer>a=new Arraylist<Integer>();
+#Integer is the wrapper class of int
+#ArrayList methods
+#a.add("swati");
+#set()--->used to change the value of the arraylist at the mentioned position.It has one parameter i.e. the position.
+#get()--->used to obtain the value at the mentioned position from the arraylist. It has two parameters i.e. the position and the value to be placed in that position
+#sorting the ArrayList
+#we can use the sort() method of the Collections framework to sort
+#Collections.sort(a);
+#accessing the elements of the arraylist
+#1.using the iterator interface 2.using the listIterator interface 3.using the forEach() method
