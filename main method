@@ -1,0 +1,13 @@
+class Solution
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Hello");
+  }
+}
+
+//output: Hello
+//public is an access specifier that allows the class to be accessed publicly
+//static is a keyword in JAVA that when used allows the method to be used without the creation of any objects
+//main is the method name 
+//String[] args is actually the input string array named as args
