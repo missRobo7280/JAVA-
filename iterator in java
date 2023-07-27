@@ -1,5 +1,5 @@
-#Iterator is used to iterate through the containers in java including ArrayList and HashSet
-#We need to import it from the java.util.
+//Iterator is used to iterate through the containers in java including ArrayList and HashSet
+//We need to import it from the java.util.
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
