@@ -1,0 +1,46 @@
+//Method Overloading in JAVA
+import java.util.Scanner;
+class Calculator
+{
+    int add(int a,int b)
+    {
+        return a+b;
+    }
+    double add(double a,double b)
+    {
+        return a+b;
+    }
+    int add(int a,int b,int c)
+    {
+        return a+b+c;
+    }
+}
+class Car {
+    void start()
+    {
+        System.out.println("Started");
+    }
+    int speed(int x){
+        return x;
+    }
+    String getcolor(String s)
+    {
+        return s;
+    }
+}
+class MethodOverloading
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the color of the car:");
+        String s=sc.nextLine();
+        Calculator c=new Calculator();
+        System.out.println(c.add(1,3));
+        System.out.println(c.add(3.4,5.8));
+        System.out.println(c.add(3,7,9));
+        Car c1=new Car();
+        c1.start();
+        System.out.println(c1.getcolor(s));
+    }
+}
