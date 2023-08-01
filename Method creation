@@ -1,0 +1,20 @@
+//method creation in JAVA
+class Computer
+{
+    void playMusic()
+    {
+        System.out.println("Playing Music");
+    }
+    String playMovie(int n)
+    {
+        return "Avengers";
+    }
+}
+class MainClass{
+    public static void main(String[] args)
+    {
+        Computer obj=new Computer();
+        obj.playMusic();
+        System.out.println(obj.playMovie(100));
+    }
+}
