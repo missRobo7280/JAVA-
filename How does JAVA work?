@@ -1,0 +1,7 @@
+//java code compilation
+//JAVA code---->Java compiler(javac)----->Java Byte code(machine understandable)----->JVM(JAVA Virtual Machine)
+//further it is given to the Operating System for further processing.
+//JDK--->JAVA Development Kit
+//JRE--->JAVA Runtime Environment
+//JVM--->JAVA Virtual Machine
+//JDK contains JRE and JRE contains the JVM
