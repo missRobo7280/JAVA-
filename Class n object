@@ -1,0 +1,17 @@
+//class creation
+class Calculator
+{
+    void add(int x,int y)
+    {
+        System.out.println(x+y);
+    }
+}
+class Class_Object
+{
+    public static void main(String[] args)
+    {
+
+        Calculator c=new Calculator();//object creation using new keyword
+        c.add(3,6);
+    }
+}
