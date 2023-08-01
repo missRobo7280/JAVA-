@@ -1,0 +1,16 @@
+// #Typecasting
+//implicit typecasting is done automatically by the compiler and explicit conversion means we are forcefully trying to do the type conversion
+//when we find an error it is bcoz the range of the variable to which we r trying to convert has exceeded.
+class TypeCasting
+{
+    public static void main(String[] args)
+    {
+        float f=7.9f;
+        int a=f;
+        System.out.println(a);
+        //on doing the above we get the error--->incompatible types: possible lossy conversion from float to int
+        float f2=4.7f;
+        int a2=(int)f2;//explicit type conversion
+        System.out.println(a2);
+    }
+}
