@@ -1,0 +1,36 @@
+//StringBuilder : It is a mutable string class in JAVA we can make all the required changes in the StringBuffer objects
+//StringBuffer methods:
+//StringBuffer sb=new StringBuffer()
+//sb.capacity()
+// sb.delete(int index)
+// sb.append()
+//sb.delete(start index,end index)
+
+class StrBuff{
+    public static void main(String[] args)
+    {
+        StringBuffer sb1=new StringBuffer();
+        System.out.println(sb1.capacity());// the default capacity of the stringbuffer class is 16 
+        StringBuffer sb=new StringBuffer("Swati");
+        System.out.println(sb.capacity());//it stores "swati" in a space of 5 n provideas 16 space extra as well
+        System.out.println(sb.append( " Jaiswal"));
+        String s=sb.toString();//conversion from stringbuffer to string
+        sb.deleteCharAt(4);// it deletes the character at the mentioned index
+        System.out.println(sb);
+        sb.delete(2,5);// it deletes the characters present in the stringbuffer and then returns the sb
+        System.out.println(sb);
+        sb.append(6);//it appends 6 to the stringBuffer
+        System.out.println(sb);
+        System.out.println(sb.getClass());// it returns the class of the mentioned reference variable
+        System.out.println(sb.indexOf("Jaisw"));//it returns the index of the specified string
+        System.out.println(sb.length());// it returns the length of the string stored in the stringbuffer
+        System.out.println(sb.capacity());//it returns the total capacity of the stringbuffer
+        System.out.println(sb.equals(s));//it checks if the value present in the mentioned obj is same as that in the curent stringBuffer
+        System.out.println(sb.reverse());//it reverses the stringbuffer
+        System.out.println(sb.replace(2,5,"Priy"));//it replaces the old string with the new string in the specified index range
+        System.out.println(sb.append(false));// it appends the boolean value to sb
+        System.out.println(sb.insert(3,19));//it inserts the value at the specified index
+        
+
+    }
+}
