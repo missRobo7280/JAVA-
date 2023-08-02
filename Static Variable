@@ -1,0 +1,35 @@
+//static keyword in JAVA
+//static variable is shared by all the objects
+//we can call the static variable not by using an object but by using the class name it belongs to
+class College
+{
+    String name;
+    int rank;
+    static String organization;
+    public void show()
+    {
+        System.out.println(name+" "+rank+" "+organization);
+    }
+}
+class staticVar
+{
+    public static void main(String[] args)
+    {
+        College c1=new College();
+        c1.name="ACOE";
+        c1.rank=1;
+        c1.organization="Aditya";//we are trying to access it using an obj but rather than that we should use the class name
+        c1.show();
+        College c2=new College();
+        c2.name="ACET";
+        c2.rank=10;
+        College.organization="Aditya";
+        c2.show();
+
+        College c3=new College();
+        c3.name="AEC";
+        c3.rank=2;
+        College.organization="Aditya";
+        c3.show();
+    }
+}
