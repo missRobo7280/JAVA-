@@ -1,0 +1,19 @@
+//mutability :means the ability to change
+//Strings are immutable which means we cannot make changes to them after their creation
+//StringBuilders are muuatable String classes ....we can make the required changes in the StringBuilder
+class StrMutability
+{
+    public static void main(String[] args)
+    {
+        String name=new String("Swati Priya ");
+        System.out.println(name);
+        //now if we try to add anything to our string name we cannot do it as strings arre immutable in JAVA
+        name=name+"Jaiswal";//It means another object is created with the value "Swati Priya Jaiswal"
+        System.out.println(name);
+        //we will create two string objects with different reference variables but same values
+        String s1="musu";
+        String s2="musu";
+        System.out.println(s1==s2);//it will only check the address of the two strings not the values that are stored;
+
+    }
+}
