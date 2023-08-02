@@ -1,0 +1,15 @@
+//String class in JAVA
+class StringClass
+{
+    public static void main(String[] args)
+    {
+        String name=new String("Swati Jaiswal");
+        //we can pass the string we want as the parameter to the String class
+        System.out.println(name);
+        //to get the address of the stored string
+        System.out.println(name.hashCode());
+        System.out.println("Hello "+name);
+        // to get the character at the mentioned position or index
+        System.out.println(name.charAt(6));
+    }
+}
